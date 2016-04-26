@@ -1,0 +1,13 @@
+#!/usr/bin/env php
+<?php
+
+use Monolog\Logger;
+use Sss\Console\Application;
+use Sss\Filesystem\Filesystem;
+
+require dirname(__DIR__) . '/config/bootstrap.php';
+
+$filesystem = new Filesystem();
+$logger = new Logger('sss');
+$app = new Application($filesystem, $logger);
+$app->run();

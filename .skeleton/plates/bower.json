@@ -1,0 +1,7 @@
+{
+  "name": "my-static-site",
+  "dependencies": {
+    "bootstrap-sass": "^3.3.6",
+    "font-awesome": "^4.6.1"
+  }
+}
